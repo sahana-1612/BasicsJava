@@ -1,0 +1,20 @@
+package com.leaning.basic;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		// ascending order
+		
+		/*for (int i=1; i<=10; i++)
+		{
+			System.out.println(i);
+		}*/
+		
+		// descending order
+		for (int i=10; i>=0; i--)
+		{
+			System.out.println(i);
+		}
+	}
+
+}
