@@ -1,0 +1,32 @@
+package com.leaning.basic;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		// Numbers 1 to 10
+		/*
+		 * int i = 1;
+		 * 
+		 * while (i <= 10) { System.out.println(i); i++; }
+		 */
+		
+		
+		// Even number form 2 to 10
+
+		/*
+		 * int i = 2; while (i <= 10) { System.out.println(i); i += 2; }
+		 */
+		
+		
+		
+		// Decending order
+		int i = 10;
+		while (i >= 0) {
+			System.out.println(i);
+			i--;
+		}
+		
+		
+	}
+
+}
