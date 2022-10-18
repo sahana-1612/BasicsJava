@@ -1,0 +1,46 @@
+package com.leaning.basic;
+
+public class Operations {
+
+	public static void main(String[] args) {
+		int a = 60;
+		int b = 40;
+		
+//		Arithmetic operation 
+		
+		System.out.println("sum of a and b is:" + (a + b));
+		System.out.println("substraction of a and b is:" + (a - b));
+		System.out.println("mul of a and b is:" + (a * b));
+		System.out.println("div of a and b is:" + (a / b));
+		System.out.println("rem of a and b is:" + (a % b));
+		
+//		Relational operation 
+		
+		System.out.println(a == b);
+		System.out.println(a <= b);
+		System.out.println(a >= b);
+		System.out.println(a > b);
+		System.out.println(a < b);
+		System.out.println(a != b);
+		
+//		Logical operation
+		
+		Boolean x= true;
+		Boolean y= false;
+		
+		System.out.println(x && y);
+		System.out.println(x || y);
+		System.out.println(!x);
+		
+//		Increment and decrement operation
+		
+		a=10;
+		b=20;
+		a++;
+		b--;
+		System.out.println(a);
+		System.out.println(b);
+				
+	}
+
+}
