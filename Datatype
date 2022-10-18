@@ -1,0 +1,19 @@
+package com.leaning.basic;
+
+public class DataTypes {
+	
+	public static void main(String[] args) {
+	int a=100;
+	double d=20.7;
+	
+	char c= 'A';
+	boolean b=true;
+	
+	
+	System.out.println(d);
+	System.out.println(a);
+	System.out.println(c);
+	System.out.println(b);
+	
+}
+}
