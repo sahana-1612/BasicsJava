@@ -1,0 +1,10 @@
+package inheritance;
+
+public class TestingSuper {
+
+	public static void main(String[] args) {
+		dog d1 = new dog();
+			//d1.displaycolor();	
+	}
+
+}
