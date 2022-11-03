@@ -1,0 +1,31 @@
+package started;
+
+public class constructoroverloading {
+	constructoroverloading(int a, int b) //1
+	{
+		System.out.println(a + b);
+	}
+
+	constructoroverloading(int a, double b) //2
+	{
+		System.out.println(a + b);
+	}
+
+	constructoroverloading(double a, double b) //3
+	{
+		System.out.println(a + b);
+	}
+
+	constructoroverloading(int a, int b, int c) //4
+	{
+		System.out.println(a + b + c);
+	}
+
+	public static void main(String[] args) {
+		constructoroverloading cov = new constructoroverloading(100,200+600);
+		
+		
+		
+	}
+
+}
