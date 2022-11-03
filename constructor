@@ -1,0 +1,31 @@
+package started;
+
+public class ConstructorDemo {
+	int x ;
+	int y ;
+	
+	/*ConstructorDemo() normal constructor 
+	 *  {
+		x = 100;
+		y = 200;
+		
+	}*/
+	
+	ConstructorDemo(int a,int b) // parameter constructor 
+	{
+		x = a;
+		y = b;
+		
+	}
+	void dispaly()
+	{
+		System.out.println(x+y);
+	}
+	public static void main(String[] args)
+	{
+		//ConstructorDemo demo = new ConstructorDemo();
+	//	demo.dispaly();
+		ConstructorDemo cd = new ConstructorDemo(500,500);
+		cd.dispaly();
+	} 
+}
