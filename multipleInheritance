@@ -1,0 +1,33 @@
+package Interface;
+
+interface ABC {
+	int x1 = 100;
+
+	void m1();
+}
+
+interface XYZ{
+	int x2 = 200;
+
+	void m2();
+}
+
+
+public class multipleInheritanceTest implements ABC,XYZ
+{
+	public void m1()
+	{
+		System.out.println(x1);
+	}
+	public void m2()
+	{
+		System.out.println(x2);
+	}
+
+	public static void main(String[] args) {
+		multipleInheritanceTest test = new multipleInheritanceTest();
+		test.m1();
+		test.m2();
+	}
+
+}
