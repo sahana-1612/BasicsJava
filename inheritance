@@ -1,0 +1,34 @@
+package inheritance;
+
+public class animal {
+
+	String color = "white";
+
+	void eating() {
+		System.out.println("Eat food");
+	}
+
+	animal() {
+		System.out.println("Animal is created");
+	}
+}
+
+class dog extends animal {
+	String color = "black";
+
+	dog() {
+		super(); // invoke the parent class
+		System.out.println("Dog is created");
+		
+	}
+
+	void displaycolor() {
+		System.out.println(color);
+		System.out.println(super.color);
+	}
+
+	void eating() {
+		System.out.println("Eat food");
+	}
+
+}
