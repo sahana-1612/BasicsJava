@@ -1,0 +1,18 @@
+package started;
+
+public class overLoadMainMethod {
+	public void main(int x) {
+		System.out.println(x);
+	}
+
+	public void main(int x, int y) {
+		System.out.println(x + y);
+	}
+
+	public static void main(String[] args) {
+		overLoadMainMethod olm = new overLoadMainMethod();
+		olm.main(100); // 1
+		olm.main(200, 300); // 2
+	}
+
+}
