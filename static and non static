@@ -1,0 +1,38 @@
+package started;
+
+public class StaticExample {
+	static int a = 10; // static variable
+	int b = 20; // non static variable
+
+	static void m1() // static method
+	{
+		System.out.println("This is static method");
+	}
+
+	void m2()  //non static method 
+	{
+		System.out.println("This is a non static method");
+	}
+	// non static method can access static and non static method and static and non static variable
+     void m3()
+     {
+    	 System.out.println(a);
+    	 System.out.println(b);
+    	 m1();
+    	 m2();
+     }
+	public static void main(String[] args) {
+		System.out.println(a);
+		m1();
+		//System.out.println(b); incorrect bcz b is not a static variable
+       // m2(); incorrrect bcz m2 is not a static method
+		
+		
+		// Non static method can be access by creating a object
+		StaticExample se = new StaticExample();
+		System.out.println(se.b);
+		se.m2();
+		se.m3();
+	}
+
+}
