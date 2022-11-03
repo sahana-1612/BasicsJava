@@ -1,0 +1,30 @@
+package started;
+
+public class MethodOverloading {
+
+	void add(int a, int b) {
+		System.out.println(a + b);
+	}
+
+	void add(int a, double b) {
+		System.out.println(a + b);
+	}
+
+	void add(double a, double b) {
+		System.out.println(a + b);
+	}
+
+	void add(int a, int b, int c) {
+		System.out.println(a + b + c);
+	}
+
+	public static void main(String[] args) {
+		MethodOverloading method1 = new MethodOverloading();
+		//method1.add(100, 200);
+		method1.add(500, 600);
+		method1.add(100.1, 12.2);
+		method1.add(100, 600, 800);
+
+	}
+
+}
