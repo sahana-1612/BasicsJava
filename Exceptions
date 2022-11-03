@@ -1,0 +1,31 @@
+package exceptions;
+
+class Ee {
+
+	public static void main(String[] args) {
+
+		System.out.println("program started");
+		System.out.println("program in progress");
+
+		/*int a = 100 / 0;
+		
+		 * try { System.out.println(a / 0);// Arithmetic expression } catch (Exception
+		 * e) { System.out.println("Enter into catch block"); }
+		 */
+
+		String s = null;
+		try {
+			System.out.println(s.length()); // null pointer
+		} catch (Exception e) {
+			System.out.println("Enter into catch block for null");
+		}
+		// String x = "abc";
+		// int i = Integer.parseInt(x);
+
+		int arr[] = new int[5];
+		arr[10] = 20; // array index boundary a
+
+		// System.out.println("program completed");
+		// System.out.println("program exited");
+	}
+}
