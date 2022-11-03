@@ -1,0 +1,15 @@
+package started;
+
+public class studentMain {
+
+	public static void main(String[] args) {
+		Student std1 = new Student(100, "laasya", 'A'); // Assign value by constructor 
+          //assign value by using reference value 
+		/*
+		 * std1.sname = "Sahana"; std1.sid = 1; std1.grade = 'A'; std1.display();
+		 */
+// assign value by method
+	//	std1.getValues(100, "laasya", 'A');
+		std1.display();
+	}
+}
