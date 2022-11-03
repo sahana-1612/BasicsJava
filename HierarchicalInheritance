@@ -1,0 +1,51 @@
+package inheritance;
+
+class parents {
+	int a;
+
+	void display() {
+		System.out.println(a);
+	}
+}
+
+class child1 extends parents {
+	int b;
+
+	void show() {
+		System.out.println(b);
+	}
+}
+
+class child2 extends parents {
+	int c;
+
+	void see() {
+		System.out.println(c);
+	}
+}
+
+class child3 extends parents {
+	int e;
+
+	void appear() {
+		System.out.println(e);
+	}
+}
+
+public class HierarchicalInheritance {
+
+	public static void main(String[] args) {
+		child1 c1 = new child1();
+		c1.b = 100;
+		c1.a = 200;
+		c1.display();
+		c1.show();
+		
+		child2 c2 = new child2();
+		c2.a = 500;
+		c2.c = 300;
+		c2.display();
+		c2.see();
+	}
+
+}
