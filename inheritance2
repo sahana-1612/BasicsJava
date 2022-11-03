@@ -1,0 +1,52 @@
+package inheritance;
+
+class A {
+	int a;
+
+	void display() {
+		System.out.println(a);
+
+	}
+
+	class B extends A // B is child class A is a parent class
+	{
+		int b;
+
+		void print() {
+			System.out.println(b);
+		}
+	}
+	class C extends B
+	{
+		int c;
+		void show() {
+			System.out.println(c);
+		}
+	}
+
+	public class inheritanceExamples {
+
+		public void main(String[] args) {
+		/*	A obja = new A();
+			obja.a = 100;
+			obja.display();*/
+
+		/*	B objb = new B();
+			objb.b = 500;
+			objb.a = 500;
+			objb.print();
+			objb.print(); */
+			
+			C objc = new C();
+		objc.c = 800;
+		objc.a = 600;
+		objc.b = 400;
+		objc.display();
+		objc.print();
+		objc.show();
+		
+			
+		}
+
+	}
+}
