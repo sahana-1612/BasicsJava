@@ -1,0 +1,22 @@
+package Interface;
+
+interface A {
+	int a = 10;// by default variable i interface are static and final
+
+	void m1(); // abstract method , by default public
+}
+
+public class test implements A {
+	public void m1() {
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+		/*test t = new test();
+		t.m1();*/
+		
+		A a = new test();
+		a.m1();
+	}
+
+}
