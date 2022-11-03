@@ -1,0 +1,35 @@
+package started;
+
+public class calculation {
+	int x = 10;
+	int y = 20;
+
+	/*
+	 * void sum() // no parameter and no return value case 1
+	 *  {
+	 *   System.out.println(x+y);
+	 * 
+	 * }
+	 */
+	/*int sum() {
+		return (x + y); // no paramter return value case 2
+	}*/
+	/*void sum(int a , int b) // with parameter no return value
+	{
+		System.out.println(a+b);
+	}*/
+	int sum (int a ,int b)
+	{
+		return(a+b);
+	}
+	public static void main(String[] args) {
+		calculation cal = new calculation();
+		// cal.sum(); case 1
+		// int res = cal.sum();case 2
+		// System.out.println(res); case 2
+		// System.out.println(cal.sum);case1
+		//cal.sum(200, 300);  case 3
+		System.out.println(cal.sum(100, 200));  //case 4
+	}
+
+}
