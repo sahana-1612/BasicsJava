@@ -1,0 +1,47 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class newArray {
+
+	public static void main(String[] args) {
+		// how to declare a array list
+		// ArrayList List = new ArrayList(); // we can store any type of elements
+		//ArrayList<String> List = new ArrayList<String>(); // we can store string 
+		//ArrayList<Integer> List = new ArrayList<Integer>();// we can store for integer
+		
+		// adding value to array list
+		list.add("john");
+		list.add("ABCD");
+		list.add("XYZ");
+		list.add("PQRS");
+		list.add(12345);
+		list.add('A');
+
+
+// size of array list
+		System.out.println(list.size());
+		System.out.println(list);
+
+
+// remove an element from list 
+		
+		list.remove(2);
+		System.out.println(list.size());
+		System.out.println(list);
+
+		//inserting a new element from list
+		list.add(1,"ABCD2");
+		System.out.println(list.size());
+		System.out.println(list);
+		
+		// Read value from array list from for loop (string datatype)
+		for(String s:list);
+		System.out.println(s);
+		for(Object s:list); // object ype variable can hold any type of datatype
+		System.out.println(s);
+		
+	}
+	
+
+}
