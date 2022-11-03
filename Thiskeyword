@@ -1,0 +1,24 @@
+package started;
+
+public class ThisKeyWord {
+	int a, b; // class variables or instance variable
+
+	void getValues(int a, int b) // method variable or instance variable
+	{
+		this.a = a;
+		this.b = b;
+	}
+
+	void printvalue() {
+		System.out.println(a);
+		System.out.println(b);
+
+	}
+
+	public static void main(String[] args) {
+		ThisKeyWord tkw = new ThisKeyWord();
+		tkw.getValues(100, 200);
+		tkw.printvalue();
+	}
+
+}
